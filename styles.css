@@ -1,0 +1,19 @@
+/* 主要样式变量 */
+:root {
+    --primary-color: #4a6baf;
+    --secondary-color: #f8f9fa;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-text: #6c757d;
+}
+
+/* 全局样式 */
+body {
+    font-family: 'Noto Sans SC', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* 可以将index.html中的样式逐步迁移到这里，以实现样式和内容的分离 */
+/* 这个文件将作为未来样式扩展的基础 */ 
